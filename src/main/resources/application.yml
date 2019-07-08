@@ -5,7 +5,10 @@ spring:
     config:
       server:
         git:
-          uri: /Users/genil/src/microservices/cloud/thoughtmechanix/config-server-repo
+          uri: https://github.com/TonyGregg/config-repo/
+          searchPaths: licensingservice
+#          basedir: /Users/genil/src/microservices/cloud/config-repo/
+
 #Disable security of the management endpoint
 management:
   security:
