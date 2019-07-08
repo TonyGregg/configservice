@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/TonyGregg/config-repo/
+          uri: https://github.com/TonyGregg/config-repo.git
           searchPaths: licensingservice
 #          basedir: /Users/genil/src/microservices/cloud/config-repo/
 
